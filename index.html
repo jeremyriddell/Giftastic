@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <title>Parks and Rec GifTastic</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+        <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">Parks and Recreation GIF Search</h1>
+                  <p class="lead">Search for GIFs by your favorite Parks and Rec character.</p>
+                </div>
+              </div>
+
+
+
+        <div class="container" "="">
+                <div id="parksbuttons">
+                
+                <button class="btn btn-info park" data-name="Ron Swanson" style="margin: 5px;">Ron Swanson</button>
+                <button class="btn btn-info park" data-name="Leslie Knope" style="margin: 5px;">Leslie Knope</button>
+                <button class="btn btn-info park" data-name="Tom Haverford" style="margin: 5px;">Tom Haverford</button>
+                <button class="btn btn-info park" data-name="Jean-Ralphio Saperstein" style="margin: 5px;">Jean-Ralphio Saperstein</button>
+                <button class="btn btn-info park" data-name="Chris Traeger" style="margin: 5px;">Chris Traeger</button>
+                <button class="btn btn-info park" data-name="Andy Dwyer" style="margin: 5px;">Andy Dwyer</button>
+                <button class="btn btn-info park" data-name="April Ludgate" style="margin: 5px;">April Ludgate</button>         
+
+
+
+<div id="gifs" style="float:left"></div>
+
+<div style="float:right; margin-top:120px;">
+ <h4>Add a Parks and Rec Character</h4>
+    <form id="gif-form">
+        <label for="gif-input"></label>
+        <input type="text" value="" id="gif-input"><br><br>
+        <!--Creates the submit button-->
+        <input type="submit" name="Button" class="btn btn-success" id="theButton" style="margin-left:5px">
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <script type="text/javascript" src="assets/javascript/gif.js"></script>
+
+</body>
+
+</html>
